@@ -16,13 +16,14 @@ scroll down: edit.page_down()
 go word left: edit.word_left()
 go word right: edit.word_right()
 
-go left: edit.left()
-go right: edit.right()
-go up: edit.up()
-go down: edit.down()
+lease | go left: edit.left()
+ross | go right: edit.right()
+sauce | go up: edit.up()
+dunce | go down: edit.down()
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+
+lease wally | go line start | head: edit.line_start()
+ross wally | go line end | tail: edit.line_end()
 
 go way left:
     edit.line_start()
@@ -39,7 +40,7 @@ go page down: edit.page_down()
 
 # Selecting
 select all: edit.select_all()
-select line: edit.select_line()
+select line | shackle: edit.select_line()
 select line start: user.select_line_start()
 select line end: user.select_line_end()
 
@@ -152,7 +153,7 @@ cut word right: user.cut_word_right()
 #     edit.cut()
 
 # Paste
-(pace | paste) that: edit.paste()
+(pace | paste) that | spark: edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
